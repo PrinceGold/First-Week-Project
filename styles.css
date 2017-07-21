@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i');
+
+body {
+    background-color: #131511;
+        background-color: #F2F1E8;
+
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+
+
+}
+#main-navigation {
+    background-color:#FFFFFF;
+    display:flex;
+   justify-content: center;
+   box-shadow: 20px;
+   }
+
+    #site-header img{
+        margin-right: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    width: auto;
+    height: 40px;
+    position: absolute;
+    left: 5;
+    }
+
+    #main-navigation a{
+        margin-top:20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right:20px;
+        color:#131511;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+
+    }
+    #main-navigation a:hover {
+        color:#967343;
+    }
+
+    #site-header div{
+        background-color:#F2F1E8;
+        text-align: center;
+    }
+
+    #site-header h1 {
+        margin-bottom: 0;
+    }
+
+#site-header h3 {
+    margin-top: 5px;
+}
+
+    #pictures-one {
+        display: flex;
+        background-color:#F2F1E8;
+        flex-flow: wrap;
+        justify-content: center;
+
+    }
+
+
+    #pictures-one img{
+        height: 340px;
+        width: auto;
+        margin: 5px;
+    }
+
+    #pictures-one p {
+
+    }
+
+    #pictures-two {
+        display: flex;
+        background-color:#F2F1E8;
+        flex-flow: wrap;
+        justify-content: center;
+
+    }
+
+
+    #pictures-two img{
+        height: 168px;
+        width: auto;
+        margin: 5px;
+        margin-top: 0px;
+    }
+
+    span {
+        position: relative;
+    }
+
+    span p {
+        position: absolute;
+        display: inline;
+        z-index: 99;
+        bottom: 10px;
+        left: 5px;
+        color: #F2F1E8;
+        background-color: #131511;
+        padding: 5px;
+        text-align: center;
+    }
+
+#site-footer {
+    background-color: #131511;
+    color:#F2F1E8;
+    padding: 20px;
+
+    }
+
+    /*/-V-(About)-V-/*/
+
+#communityArtist h1{
+    text-align: center;
+}
+
+#Artist-article {
+   margin-left: 60px;
+   margin-right: 60px;
+    line-height: 80px;
+}
+
+#Artist-article img{
+    height: 200px;
+    width: auto;
+    float:left;
+    margin: 20px;
+}
+
+#Artist-article h4{
+    border-left: 2px solid #967343;
+    padding-left: 20px;
+    }
+
+    #Growing {
+        background-image: url('images/optimized/background-3.jpg');
+        background-size: cover;
+       width: auto;
+        height: 400px; 
+        color: white;
+        text-align: center;
+    }
+
+    #Growing h1{
+            font-size:100px;
+            justify-content:center;
+            padding-top:140px;
+            padding-bottom:auto;
+    }
+
+#facility-article {
+    margin-left: 60px;
+   margin-right: 60px;
+    line-height: 80px;
+    width: 2750px;
+}
+
+#picture-sidebar {
+    float: right;
+    width: 500px;
+    margin-right: 400px;
+}
+
+#picture-sidebar img {
+      height: auto;
+    width: 500px;
+    margin: 20px;
+}
+
+
+#table-article{ 
+font-size: 50px;
+}
+
+#table-article h3{
+    margin-left:60px;
+}
+
+tr.color td {
+ background-color: #968772;
+}
+
+table {
+    width: 50%;
+    height:auto;
+    }
+
+table, th, td {
+    margin:50px;
+    border: 1px solid black;
+    }
+
+    tr td{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+/* >>> -VVV-(ARTICLE)-VVV- <<< */
+
+
+#Pots {
+        background-image: url('file:///Users/stonefreeze/Projects/week-one-project/images/optimized/background-2.jpg');
+        background-size: cover;
+       width: auto;
+        height: 400px; 
+        color: white;
+        text-align: center;
+    }
+
+
+#BOX {
+    background-color:#FFFFFF;
+    text-align: center;
+    margin-left:250px;
+    margin-right:250px;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:relative;
+    top:-350px
+
+}
+
+#BOX input{
+    border-bottom:2px solid #967343;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    font-size:17px;
+    margin-top:15px;
+    margin-bottom:15px;
+    width:400px;
+
+}
+
+#BOX button{
+    margin:10px;
+    background-color:#967343;
+    color:#FFFFFF;
+    border:0;
+    width:100px;
+    height:auto;
+    font-size:15px;
+    padding:12px;
+}
+
+
+
+
+
+
+
+
+
+
